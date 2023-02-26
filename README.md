@@ -7,7 +7,7 @@ Text wrangling Typescript utilities
 ## import
 
 ```ts
-import * from "https://deno.land/x/textras/mod.ts";
+import * as textras from "https://deno.land/x/textras/mod.ts";
     
 ```
 
