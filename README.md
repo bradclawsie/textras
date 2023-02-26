@@ -53,3 +53,21 @@ const stringToBytes: (s: string) => Uint8Array
       the byte array representation of s
 
 ```
+
+## example
+```ts
+
+import { assertEquals } from "https://deno.land/std@0.178.0/testing/asserts.ts";
+import {
+  bytesToHex,
+  bytesToString,
+  hexToBytes,
+  stringToBytes,
+} from "https://deno.land/x/textras/mod.ts";
+
+// round trip a string to hex and back again
+const s = "hello world";
+const h = bytesToHex(stringToBytes(s));
+assertEquals(h, "68656c6c6f20776f726c64", "hex value");
+assertEquals(bytesToString(hexToBytes(h)), s, "round trip");
+```
