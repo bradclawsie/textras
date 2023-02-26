@@ -4,7 +4,15 @@ Text wrangling Typescript utilities
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![ci](https://github.com/bradclawsie/textras/workflows/ci/badge.svg)
 
+## import
+
+```ts
+import * from "https://deno.land/x/textras/mod.ts";
+    
 ```
+
+## exported fuctions
+```ts
 const bytesToHex: (d: Uint8Array) => string
   convert a byte array to its hex string encoding
 
