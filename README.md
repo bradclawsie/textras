@@ -2,7 +2,7 @@
 Text wrangling Typescript utilities 
 
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![ci](https://github.com/bradclawsie/textras/workflows/textras/badge.svg)
+![ci](https://github.com/bradclawsie/textras/workflows/ci/badge.svg)
 
 ```
 const bytesToHex: (d: Uint8Array) => string
