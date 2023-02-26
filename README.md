@@ -12,7 +12,7 @@ import * from "https://deno.land/x/textras/mod.ts";
 ```
 
 ## exported fuctions
-```ts
+```
 const bytesToHex: (d: Uint8Array) => string
   convert a byte array to its hex string encoding
 
