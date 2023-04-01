@@ -1,5 +1,6 @@
 # textras
-Text wrangling Typescript utilities 
+
+Text wrangling Typescript utilities
 
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![ci](https://github.com/bradclawsie/textras/workflows/ci/badge.svg)
@@ -8,10 +9,10 @@ Text wrangling Typescript utilities
 
 ```ts
 import * as textras from "https://deno.land/x/textras/mod.ts";
-    
 ```
 
 ## exported fuctions
+
 ```
 const bytesToHex: (d: Uint8Array) => string
   convert a byte array to its hex string encoding
@@ -51,12 +52,11 @@ const stringToBytes: (s: string) => Uint8Array
 
   @return {Uint8Array}
       the byte array representation of s
-
 ```
 
 ## example
-```ts
 
+```ts
 import { assertEquals } from "https://deno.land/std@0.178.0/testing/asserts.ts";
 import {
   bytesToHex,
