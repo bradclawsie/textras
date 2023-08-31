@@ -1,7 +1,7 @@
 import {
   decode as hexDecode,
   encode as hexEncode,
-} from "https://deno.land/std@0.182.0/encoding/hex.ts";
+} from "https://deno.land/std@0.200.0/encoding/hex.ts";
 
 /**
  * convert a string to its byte array representation
