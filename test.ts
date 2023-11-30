@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.200.0/assert/mod.ts";
+import { assertEquals } from "https://deno.land/std@0.208.0/assert/mod.ts";
 import { bytesToHex, bytesToString, hexToBytes, stringToBytes } from "./mod.ts";
 
 Deno.test("round trip hex value", () => {
